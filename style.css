@@ -4,7 +4,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .container {
   height: 100vh;
   display: flex;
@@ -78,4 +77,9 @@ body {
   font-size: 1.25rem;
   font-weight: 500;
   border-radius: 0.625rem;
+}
+
+.container_card_right_button:hover {
+  background-color: hsl(160, 56%, 29%);
+  cursor: pointer;
 }
