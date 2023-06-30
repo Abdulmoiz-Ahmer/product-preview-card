@@ -1,0 +1,81 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_card {
+  display: flex;
+  width: 34.375rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.4375rem;
+}
+
+.container_card_left {
+  width: 275px;
+}
+
+.container_card_left_image_container {
+  background-image: url('./images/image-product-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-top-left-radius: 0.4375rem;
+  border-bottom-left-radius: 0.4375rem;
+}
+
+.container_card_right {
+  width: 17.1875rem;
+  padding: 1.5625rem;
+}
+
+.container_card_right_heading {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.container_card_right_subheading {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.125rem 0;
+}
+
+.container_card_right_description {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.25rem;
+}
+
+.container_card_right_price {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.125rem 0;
+}
+
+.container_card_right_price_previous {
+  font-size: 0.9375rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.container_card_right_button {
+  background-color: hsl(158, 36%, 37%);
+  padding: 0.9375rem;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 0.625rem;
+}
